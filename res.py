@@ -1,0 +1,33 @@
+#Imagine restuarant name= 'The Golden Corral'
+order_confirm = input("Hello👋, Welcome to The Golden Corral, Best food in town😋. \nDo you ready to order?🙄 (yes/no)")
+if order_confirm == "yes":
+    print("Great!👍")
+    print("Here is our menu📜")
+    print("1. 🍔Burger - $5.99")
+    print("2. 🍕Pizza - $7.99")
+    print("3. 🍗Chicken - $6.99")
+    print("4. 🍟Fries - $2.99")
+    print("5. 🥤Drink - $1.99")
+    print("6. 🍦Ice Cream - $3.99")
+    print("7. 🥗Salad - $4.99")
+    print("8. 🍝Pasta - $8.99")
+    print("9. 🍱Sushi - $9.99")
+    print("10. 🍣Sashimi - $10.99")
+    print("11. 🍜Ramen - $11.99")
+    print("12. 🍛Curry - $12.99")
+    print("13. 🍤Shrimp - $13.99")
+    print("14. 🍚Rice - $14.99")
+    print("15. 🍙Sushi Rice - $15.99")
+    print("16. 🍘Rice Cake - $16.99")
+    print("17. 🍥Fish Cake - $17.99")
+    print("18. 🍢Skewer - $18.99")
+    print("19. 🍡Dango - $19.99")
+    print("20. 🍧Shaved Ice - $20.99")
+    order= input("What would you like to order?🤔(Tell us order number)")
+    if order == "1":
+        print("You ordered 🍔Burger")
+        quantity = input("How many?🤔")
+        print(f"You ordered {quantity} 🍔Burger")
+        print("Your order will be ready in 10 minutes")
+
+    
