@@ -1,4 +1,34 @@
 #Imagine restuarant name= 'The Golden Corral'
+#I want to create functin that contains menu
+
+# def menu():
+#     print("Here is our menu📜")
+#     print("1. 🍔Burger - $5.99")
+#     print("2. 🍕Pizza - $7.99")
+#     print("3. 🍗Chicken - $6.99")
+#     print("4. 🍟Fries - $2.99")
+#     print("5. 🥤Drink - $1.99")
+#     print("6. 🍦Ice Cream - $3.99")
+#     print("7. 🥗Salad - $4.99")
+#     print("8. 🍝Pasta - $8.99")
+#     print("9. 🍱Sushi - $9.99")
+#     print("10. 🍣Sashimi - $10.99")
+
+# menu()
+#How to call menu funtion in the main function
+# def main():
+#     print("Hello👋, Welcome to The Golden Corral, Best food in town😋")
+#     print("Do you ready to order?🙄 (yes/no)")
+#     order_confirm = input()
+#     if order_confirm == "yes":
+#         print("Great!👍")
+#         menu()
+#     elif order_confirm == "no":
+#         print("Okay, See you next time👋")
+#     else:
+#         print("Sorry, We don't understand that😔")
+
+
 order_confirm = input("Hello👋, Welcome to The Golden Corral, Best food in town😋. \nDo you ready to order?🙄 (yes/no)")
 if order_confirm == "yes":
     print("Great!👍")
