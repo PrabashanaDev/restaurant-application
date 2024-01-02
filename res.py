@@ -13,21 +13,62 @@ if order_confirm == "yes":
     print("8. 🍝Pasta - $8.99")
     print("9. 🍱Sushi - $9.99")
     print("10. 🍣Sashimi - $10.99")
-    print("11. 🍜Ramen - $11.99")
-    print("12. 🍛Curry - $12.99")
-    print("13. 🍤Shrimp - $13.99")
-    print("14. 🍚Rice - $14.99")
-    print("15. 🍙Sushi Rice - $15.99")
-    print("16. 🍘Rice Cake - $16.99")
-    print("17. 🍥Fish Cake - $17.99")
-    print("18. 🍢Skewer - $18.99")
-    print("19. 🍡Dango - $19.99")
-    print("20. 🍧Shaved Ice - $20.99")
-    order= input("What would you like to order?🤔(Tell us order number)")
-    if order == "1":
-        print("You ordered 🍔Burger")
-        quantity = input("How many?🤔")
-        print(f"You ordered {quantity} 🍔Burger")
-        print("Your order will be ready in 10 minutes")
 
-    
+    order= input("What would you like to order?🤔 (Tell us order number) ")
+    if order == "1":
+        print("Great choice, You selected 🍔 Burger ")
+        quantity = int(input("How many Burgers do you like to order?🤔 ")) #add int() to other orders too
+        print(f"You ordered {quantity} 🍔 Burger")
+        print("Your order will be ready in 10 minutes")
+    elif order == "2":
+        print("Great choice, You selected 🍕 Pizza ")
+        quantity = input("How many Pizza do you like to order?🤔 ")
+        print(f"You ordered {quantity} 🍕 Pizza")
+        print("Your order will be ready in 10 minutes")
+    elif order == "3":
+        print("Great choice, You selected 🍗 Chicken ")
+        quantity = input("How many do you like to order?🤔 ")
+        print(f"You ordered {quantity} 🍗 Chicken")
+        print("Your order will be ready in 10 minutes")
+    elif order == "4":
+        print("Great choice, You selected 🍟 Fries ")
+        quantity = input("How many do you like to order?🤔 ")
+        print(f"You ordered {quantity} 🍟 Fries")
+        print("Your order will be ready in 10 minutes")
+    elif order == "5":
+        print("Great choice, You selected 🥤 Drink ")
+        quantity = input("How many do you like to order?🤔 ")
+        print(f"You ordered {quantity} 🥤 Drink")
+        print("Your order will be ready in 10 minutes")
+    elif order == "6":
+        print("Great choice, You selected 🍦 Ice Cream ")
+        quantity = input("How many do you like to order?🤔 ")
+        print(f"You ordered {quantity} 🍦 Ice Cream")
+        print("Your order will be ready in 10 minutes")
+    elif order == "7":
+        print("Great choice, You selected 🥗 Salad ")
+        quantity = input("How many do you like to order?🤔 ")
+        print(f"You ordered {quantity} 🥗 Salad")
+        print("Your order will be ready in 10 minutes")
+    elif order == "8":  
+        print("Great choice, You selected 🍝 Pasta ")
+        quantity = input("How many do you like to order?🤔 ")
+        print(f"You ordered {quantity} 🍝 Pasta")
+        print("Your order will be ready in 10 minutes")
+    elif order == "9":
+        print("Great choice, You selected 🍱 Sushi ")
+        quantity = input("How many do you like to order?🤔 ")
+        print(f"You ordered {quantity} 🍱 Sushi")
+        print("Your order will be ready in 10 minutes")
+    elif order == "10":
+        print("Great choice, You selected 🍣 Sashimi ")
+        quantity = input("How many do you like to order?🤔 ")
+        print(f"You ordered {quantity} 🍣 Sashimi")
+        print("Your order will be ready in 10 minutes")
+    else:
+        print("Sorry, We don't have that in our menu😔")
+elif order_confirm == "no":
+    print("Okay, See you next time👋")
+else:
+    print("Sorry, We don't understand that😔")
+
