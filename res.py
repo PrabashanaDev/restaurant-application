@@ -1,3 +1,11 @@
+#order_menu()- Will display the menu
+#order_process()- Will ask the user to order
+#customer_order()- Will display the order
+#order_quanity()- Will ask the user to enter the quantity
+#order_time()- Will display the order time
+#order_confirm- Will ask the user to confirm the order
+
+
 def order_menu():
     print("1. 🍔Burger - $5.99")
     print("2. 🍕 Pizza - $7.99")
